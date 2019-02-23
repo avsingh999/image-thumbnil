@@ -6,7 +6,7 @@ const jwt     = require('jsonwebtoken');
 const key = require('../key');
 var supertest = require("supertest");
 // var should = require("should");
-var {describe, it} = require('mocha')
+// var {describe, it} = require('mocha')
 chai.use(chaiHttp);
 
 
@@ -36,7 +36,8 @@ var superset = supertest.agent(server);
 		done();
 	});
   });
-superset = supertest.agent(server);
+
+  superset = supertest.agent(server);
 
   it('should Return jwt token  in json /login POST', function(done){
   	superset
@@ -50,7 +51,7 @@ superset = supertest.agent(server);
 	});
   });
 
-  it('should Return jwt token  in json', function(done){	
+  it('should Return jwt token  in json error', function(done){	
   	superset
   	.get('/login')
   	.end(function(err, res){
@@ -59,6 +60,7 @@ superset = supertest.agent(server);
       done();
   	})
   });
+
 
   it('Should resize image and store in thumbnails/images return success meassage', function(done){
   	superset
@@ -71,10 +73,11 @@ superset = supertest.agent(server);
 		done();
 	});
   });
-  it('should return error', function(done){
+
+  it('should return error File extensions allowed', function(done){
   	superset
-  	.post('/login')
-	.send({'username':'','password':''})
+  	.post('/image')
+	.send({'url':'https://media.giphy.com/media/13gvXfEVlxQjDO/giphy.gif'})
 	.end(function(err, res){
 		res.should.have.status(200);
 		res.should.be.json;
@@ -82,6 +85,32 @@ superset = supertest.agent(server);
 		done();
 	});
   });
+
+
+  it('Should return error null url', function(done){
+  	superset
+  	.post('/image')
+	.send({'url':''})
+	.end(function(err, res){
+		res.should.have.status(200);
+		res.should.be.json;
+		res.body.should.have.property('error');
+		done();
+	});
+  });
+
+  it('should return error', function(done){
+  	superset
+  	.post('/login')
+	.send({'username':'sdsd','password':''})
+	.end(function(err, res){
+		res.should.have.status(200);
+		res.should.be.json;
+		res.body.should.have.property('error');
+		done();
+	});
+  });
+
     it('should return error for authentication ', function(done){
   	superset
   	.post('/image')
@@ -94,7 +123,14 @@ superset = supertest.agent(server);
 	});
   });
 
-   // process.exit(1);
+    it('should return error ', function(done){
+  	superset
+  	.get('/invalid-url')
+	.end(function(err, res){
+		res.body.should.have.property('error');
+		done();
+	});
+  });
 });
 
 

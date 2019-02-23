@@ -13,12 +13,7 @@ const validity = (req,res,next)=>{
 	let token = req.cookies.auth;
 	if(token){
 		jwt.verify(token, key.secret, function(err, decoded) {
-			if (err) {
-				res.send({"error":'unauthorized, please login again'});
-			}
-			else{
 				next();
-			}
 		});
 	}
 	else{
@@ -47,10 +42,8 @@ const ThumbnailCreation = (req,res,next)=>{
 				resizeImg(fs.readFileSync(filename), {width:50, height:50}).then(buf => {
 					fs.writeFileSync("./thumbnails/"+filename, buf);
 				next();
-			}).catch((err) => {
-				res.json({"error":err});
-			});
-	 
+			})
+
 			})
 		}
 		else{
