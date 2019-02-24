@@ -4,8 +4,7 @@ const key = require('./key');
 const download = require('image-downloader');
 const fs = require('fs');
 const resizeImg = require('resize-img');
-const LocalStorage = require('node-localstorage').LocalStorage;
-localStorage = new LocalStorage('./jwtoken');
+
 
 
 

@@ -10,9 +10,7 @@ const cookieParser = require('cookie-parser');
 const app = express();
 app.use(bodyParser.json())
 app.use(cookieParser())
-
 app.use('/assets', express.static('assets'));
-app.set('view engine', 'ejs');
 
 app.post('/login',(req,res)=>{
 	const username = req.body.username;
@@ -26,11 +24,9 @@ app.post('/login',(req,res)=>{
 	}
 	else{
 		let token = jwt.sign(username+password, key.secret);
-		localStorage.setItem("jwttoken", token);
 		res.cookie('auth', token).json({
 	       "auth":token
 	    })
-	    console.log(req.cookies)
 	}
 });
 
@@ -45,10 +41,13 @@ app.post('/image',middlewares.validity,middlewares.ThumbnailCreation,(req,res)=>
 	res.json({"success":"Successfully downloaded and thumbnail created"});
 	
 });
+
 app.get('*', function(req, res){
   res.send({'error':"invalid url"});
 });
+
 app.listen(3000,()=>{
 	console.log("app running on port 3000");
 });
+
 module.exports = app

@@ -5,13 +5,11 @@ var should = chai.should();
 const jwt     = require('jsonwebtoken');
 const key = require('../key');
 var supertest = require("supertest");
-// var should = require("should");
-// var {describe, it} = require('mocha')
 chai.use(chaiHttp);
 
 
 describe('testing', function() {
-var superset = supertest.agent(server);
+  var superset = supertest.agent(server);
 
   it('should return error', function(done){
   	superset
@@ -49,7 +47,7 @@ var superset = supertest.agent(server);
 		res.body.should.have.property('auth');
 		done();
 	});
-  });
+  });	
 
   it('should Return jwt token  in json error', function(done){	
   	superset
