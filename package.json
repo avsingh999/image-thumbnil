@@ -24,7 +24,8 @@
     "mocha": "^6.0.1",
     "resize-img": "^1.1.2",
     "should": "^13.2.3",
-    "supertest": "^3.4.2"
+    "supertest": "^3.4.2",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.3",

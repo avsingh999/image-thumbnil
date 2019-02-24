@@ -1,0 +1,32 @@
+{"message":"Server running on port 3000","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"username is requierd","level":"error","timestamp":"2019-02-24 17:28:23"}
+{"message":"username is requierd","level":"error","timestamp":"2019-02-24 17:28:23"}
+{"message":"successfully login and token generate","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"already login","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"downloading the image and saved in image folder","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"Successfully downloaded and thumbnail Created and saved in thumnails/images","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"File extensions allowed- [bmp,png,jpg]'});","level":"error","timestamp":"2019-02-24 17:28:23"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-24 17:28:23"}
+{"message":"null url","level":"error","timestamp":"2019-02-24 17:28:23"}
+{"message":"password is requierd","level":"error","timestamp":"2019-02-24 17:28:23"}
+{"message":"Authentication requierd","level":"error","timestamp":"2019-02-24 17:28:23"}
+{"message":"404 page requested","level":"error","timestamp":"2019-02-24 17:28:23"}
+{"message":"Server running on port 3000","level":"info","timestamp":"2019-02-24 17:28:42"}
+{"message":"username is requierd","level":"error","timestamp":"2019-02-24 17:28:43"}
+{"message":"username is requierd","level":"error","timestamp":"2019-02-24 17:28:43"}
+{"message":"successfully login and token generate","level":"info","timestamp":"2019-02-24 17:28:43"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-24 17:28:43"}
+{"message":"already login","level":"info","timestamp":"2019-02-24 17:28:43"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-24 17:28:43"}
+{"message":"downloading the image and saved in image folder","level":"info","timestamp":"2019-02-24 17:28:43"}
+{"message":"Successfully downloaded and thumbnail Created and saved in thumnails/images","level":"info","timestamp":"2019-02-24 17:28:43"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-24 17:28:43"}
+{"message":"File extensions allowed- [bmp,png,jpg]'});","level":"error","timestamp":"2019-02-24 17:28:43"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-24 17:28:43"}
+{"message":"null url","level":"error","timestamp":"2019-02-24 17:28:43"}
+{"message":"password is requierd","level":"error","timestamp":"2019-02-24 17:28:43"}
+{"message":"Authentication requierd","level":"error","timestamp":"2019-02-24 17:28:43"}
+{"message":"404 page requested","level":"error","timestamp":"2019-02-24 17:28:43"}
