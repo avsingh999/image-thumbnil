@@ -1,0 +1,66 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: Image-thumbnail
+host: localhost:3000
+basePath: /
+schemes:
+  - http
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /login:
+    post:
+      summary: login a new user.
+      consumes:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: login user.
+          schema:
+            type: object
+            required:
+              - username
+              - password
+            properties:
+              username:
+                type: string
+              password:
+                type: string
+      responses:
+        201:
+          description: Created
+    get:
+      tags:
+        - return token
+      description: Returns token current user
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Returns token current user
+  /image:
+    post:
+      summary: create image thumbnail
+      consumes:
+      - application/json
+      parameters:
+        - in: url
+          name: url
+          description: add url of image
+          schema:
+            required:
+              - url
+            properites:
+              url:
+                type: string
+      responses:
+        200:
+          description: successfull create image thumbnail
+  
+        
+            
