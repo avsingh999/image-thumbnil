@@ -263,3 +263,49 @@
 {"message":"password is requierd","level":"error","timestamp":"2019-02-25 03:35:53"}
 {"message":"Authentication requierd","level":"error","timestamp":"2019-02-25 03:35:53"}
 {"message":"404 page requested","level":"error","timestamp":"2019-02-25 03:35:53"}
+{"message":"Server running on port 3000","level":"info","timestamp":"2019-02-25 03:40:01"}
+{"message":"username is requierd","level":"error","timestamp":"2019-02-25 03:40:29"}
+{"message":"username is requierd","level":"error","timestamp":"2019-02-25 03:40:29"}
+{"message":"successfully login and token generate","level":"info","timestamp":"2019-02-25 03:40:29"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 03:40:29"}
+{"message":"already login","level":"info","timestamp":"2019-02-25 03:40:29"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 03:40:29"}
+{"message":"downloading the image and saved in image folder","level":"info","timestamp":"2019-02-25 03:40:29"}
+{"message":"Successfully downloaded and thumbnail Created and saved in thumnails/images","level":"info","timestamp":"2019-02-25 03:40:29"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 03:40:29"}
+{"message":"File extensions allowed- [bmp,png,jpg]'});","level":"error","timestamp":"2019-02-25 03:40:29"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 03:40:29"}
+{"message":"null url","level":"error","timestamp":"2019-02-25 03:40:29"}
+{"message":"password is requierd","level":"error","timestamp":"2019-02-25 03:40:29"}
+{"message":"Authentication requierd","level":"error","timestamp":"2019-02-25 03:40:29"}
+{"message":"404 page requested","level":"error","timestamp":"2019-02-25 03:40:29"}
+{"message":"Server running on port 3000","level":"info","timestamp":"2019-02-25 03:56:21"}
+{"message":"successfully login and token generate","level":"info","timestamp":"2019-02-25 03:56:29"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 03:57:35"}
+{"message":"already login","level":"info","timestamp":"2019-02-25 03:57:35"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 03:57:38"}
+{"message":"already login","level":"info","timestamp":"2019-02-25 03:57:38"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 03:58:49"}
+{"message":"downloading the image and saved in image folder","level":"info","timestamp":"2019-02-25 03:58:49"}
+{"message":"Successfully downloaded and thumbnail Created and saved in thumnails/images","level":"info","timestamp":"2019-02-25 03:58:50"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 03:59:39"}
+{"message":"null url","level":"error","timestamp":"2019-02-25 03:59:39"}
+{"message":"password is requierd","level":"error","timestamp":"2019-02-25 04:00:08"}
+{"message":"Server running on port 3000","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"username is requierd","level":"error","timestamp":"2019-02-25 04:06:53"}
+{"message":"username is requierd","level":"error","timestamp":"2019-02-25 04:06:53"}
+{"message":"successfully login and token generate","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"already login","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"downloading the image and saved in image folder","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"Successfully downloaded and thumbnail Created and saved in thumnails/images","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"File extensions allowed- [bmp,png,jpg]'});","level":"error","timestamp":"2019-02-25 04:06:53"}
+{"message":"authenication checking","level":"info","timestamp":"2019-02-25 04:06:53"}
+{"message":"null url","level":"error","timestamp":"2019-02-25 04:06:53"}
+{"message":"password is requierd","level":"error","timestamp":"2019-02-25 04:06:53"}
+{"message":"Authentication requierd","level":"error","timestamp":"2019-02-25 04:06:53"}
+{"message":"404 page requested","level":"error","timestamp":"2019-02-25 04:06:53"}
+{"message":"Server running on port 3000","level":"info","timestamp":"2019-02-25 04:13:22"}
+{"message":"Server running on port 3000","level":"info","timestamp":"2019-02-25 04:14:45"}
